@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
 
     }
 
@@ -22,6 +23,26 @@
         width: 70%;
         font-size: 1em;
     }
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 100%;
+        transform:translateY(-42px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        margin-left: 44px;
+       
+    }
+
+    div.campo > i {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -30,6 +51,7 @@
     }
     section#login{
         width: 80vw;
+        height: 350px;
     }
 
     div#imagem{
@@ -41,5 +63,25 @@
         float: left;
         width: 50%;
         font-size: 1em;
+    }
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 100%;
+        transform:translateY(-42px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        margin-left: 44px;
+       
+    }
+
+    div.campo > i {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
     }
 }
